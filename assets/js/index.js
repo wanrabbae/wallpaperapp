@@ -3,7 +3,7 @@ $('.searchAfter').css('display', 'none');
 
 
 $.ajax({
-    url: 'https://pixabay.com/api',
+    url: 'https://pixabay.com/api/',
     type: 'GET',
     dataType: 'json',
     data: {
@@ -31,7 +31,7 @@ function searchWallpaper() {
     $('.card-columns').html('');
 
     $.ajax({
-        url: 'https://pixabay.com/api',
+        url: 'https://pixabay.com/api/',
         type: 'GET',
         dataType: 'json',
         data: {
