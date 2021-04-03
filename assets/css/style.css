@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Viga&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* padding: 3% 0; */
+}
+
+/* DESKTOP */
+.navbar-brand {
+    font-family: 'Viga', sans-serif;
+}
+
+.jumbotron {
+    background-image: url('../img/rest-4933097_1920.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    /* display: none; */
+    margin-top: 2.5em;
+}
+
+.isiBanner {
+    margin-top: 4em;
+}
+
+.wrapper-content {
+    margin-top: 3em;
+}
+
+.img-wallpaper {
+    cursor: pointer;
+}
+
+.form-control {
+    /* width: 10px; */
+    border: 1px solid #007bff;
+}
+
+hr {
+    color: #28a745;
+    /* padding: 1px; */
+}
+
+.card img {
+    width: 100%;
+    transition: 0.3s;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.card {
+    border-radius: 12px;
+    padding: 3%;
+    margin-top: 6%;
+    background: #fff;
+    box-shadow: 10px 10px 24px -12px rgba(0, 0, 0, 0.75);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: inset 10px 10px 24px -12px rgba(0, 0, 0, 0.75);
+
+}
+
+.card:hover img {
+    transform: scale(0.9);
+
+}
+
+
+/* DESKTOP */
+
+/* PHONE */
+@media (max-width: 576px) {
+    .wrapper-content {
+        margin-top: 3em;
+    }
+
+    .jumbotron {
+        background-color: rgb(153, 153, 153);
+        height: 400px;
+    }
+
+}
+
+/* PHONE */
+
+/* Tablets */
+@media (max-width: 768px) {
+    .wrapper-content {
+        margin-top: 3em;
+    }
+
+}
+
+/* Tablets */
